@@ -1,0 +1,19 @@
+
+<div class="container main-container">
+    <div class="row text-center">
+
+        <div *ngFor="let item of produtos" class="col-md-4" style="padding-bottom: 30px;">
+            <div class="card" style="width: 18rem;">
+                <a [routerLink]="['../produto-detalhe', item.id]">
+                    <img src="{{ item.imagem }}" class="card-img-top" alt="..." width="100" height="100">
+                </a>
+                <div class="card-body">
+                <h5 class="card-title">{{ item.nome | titlecase }}</h5>
+                <p class="card-text">{{ item.valor | currency:'BRL':symbol:'1.2-2':'pt' }}</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

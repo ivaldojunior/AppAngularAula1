@@ -1,0 +1,20 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "mouse Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "https://angular.io/assets/images/logos/angular/angular.svg"
+        },
+        {
+            "id": 2,
+            "nome": "Teclado micrOsoft",
+            "valor": 85.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "https://angular.io/assets/images/logos/angular/angular.svg"
+        }
+    ]
+}
